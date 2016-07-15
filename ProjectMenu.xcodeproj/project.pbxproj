@@ -7,25 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92D332D378B5391EBB57A868 /* libPods-ProjectMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F083810F521A2C5CB9ADFB /* libPods-ProjectMenu.a */; };
+		ED1ADBDF1D39667C00317882 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1ADBDA1D39667C00317882 /* OpenSans-Bold.ttf */; };
+		ED1ADBE01D39667C00317882 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1ADBDB1D39667C00317882 /* OpenSans-ExtraBold.ttf */; };
+		ED1ADBE11D39667C00317882 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1ADBDC1D39667C00317882 /* OpenSans-Light.ttf */; };
+		ED1ADBE21D39667C00317882 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1ADBDD1D39667C00317882 /* OpenSans-Regular.ttf */; };
+		ED1ADBE31D39667C00317882 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED1ADBDE1D39667C00317882 /* OpenSans-Semibold.ttf */; };
 		ED4DFA621D38CA0100D29596 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DFA611D38CA0100D29596 /* main.m */; };
 		ED4DFA651D38CA0100D29596 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DFA641D38CA0100D29596 /* AppDelegate.m */; };
-		ED4DFA681D38CA0100D29596 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DFA671D38CA0100D29596 /* ViewController.m */; };
 		ED4DFA6B1D38CA0100D29596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4DFA691D38CA0100D29596 /* Main.storyboard */; };
 		ED4DFA6D1D38CA0100D29596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4DFA6C1D38CA0100D29596 /* Assets.xcassets */; };
 		ED4DFA701D38CA0100D29596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4DFA6E1D38CA0100D29596 /* LaunchScreen.storyboard */; };
+		ED4DFA791D38CC6200D29596 /* PMSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DFA781D38CC6200D29596 /* PMSignInViewController.m */; };
+		ED4DFA7B1D38CD6A00D29596 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED4DFA7A1D38CD6A00D29596 /* GoogleService-Info.plist */; };
+		ED4DFA7E1D38CDDC00D29596 /* PMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DFA7D1D38CDDC00D29596 /* PMManager.m */; };
+		ED4DFA811D38CE2300D29596 /* PMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DFA801D38CE2300D29596 /* PMConstants.m */; };
+		ED4DFA841D38D03600D29596 /* PMUserLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DFA831D38D03600D29596 /* PMUserLocationViewController.m */; };
+		ED4DFA881D38D29100D29596 /* IMG_0101.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED4DFA871D38D29100D29596 /* IMG_0101.mp4 */; };
+		ED4DFA8C1D38DC3000D29596 /* IMG_0102.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED4DFA8B1D38DC3000D29596 /* IMG_0102.mp4 */; };
+		ED4DFA8F1D38E4CC00D29596 /* PMLocationPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DFA8E1D38E4CC00D29596 /* PMLocationPickerController.m */; };
+		ED4DFA961D3942C200D29596 /* NSDictionary+PMPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4DFA951D3942C200D29596 /* NSDictionary+PMPlace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F868EF9C56526AB5930CFA8 /* Pods-ProjectMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectMenu/Pods-ProjectMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		8F818AA472E2B6EA57BBB5F0 /* Pods-ProjectMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectMenu/Pods-ProjectMenu.release.xcconfig"; sourceTree = "<group>"; };
+		C4F083810F521A2C5CB9ADFB /* libPods-ProjectMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectMenu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1ADBDA1D39667C00317882 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		ED1ADBDB1D39667C00317882 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		ED1ADBDC1D39667C00317882 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		ED1ADBDD1D39667C00317882 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		ED1ADBDE1D39667C00317882 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		ED4DFA5D1D38CA0100D29596 /* ProjectMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4DFA611D38CA0100D29596 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED4DFA631D38CA0100D29596 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED4DFA641D38CA0100D29596 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED4DFA661D38CA0100D29596 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED4DFA671D38CA0100D29596 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED4DFA6A1D38CA0100D29596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED4DFA6C1D38CA0100D29596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED4DFA6F1D38CA0100D29596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED4DFA711D38CA0100D29596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4DFA771D38CC6200D29596 /* PMSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMSignInViewController.h; sourceTree = "<group>"; };
+		ED4DFA781D38CC6200D29596 /* PMSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMSignInViewController.m; sourceTree = "<group>"; };
+		ED4DFA7A1D38CD6A00D29596 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED4DFA7C1D38CDDC00D29596 /* PMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMManager.h; sourceTree = "<group>"; };
+		ED4DFA7D1D38CDDC00D29596 /* PMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMManager.m; sourceTree = "<group>"; };
+		ED4DFA7F1D38CE2300D29596 /* PMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMConstants.h; sourceTree = "<group>"; };
+		ED4DFA801D38CE2300D29596 /* PMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMConstants.m; sourceTree = "<group>"; };
+		ED4DFA821D38D03600D29596 /* PMUserLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMUserLocationViewController.h; sourceTree = "<group>"; };
+		ED4DFA831D38D03600D29596 /* PMUserLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMUserLocationViewController.m; sourceTree = "<group>"; };
+		ED4DFA871D38D29100D29596 /* IMG_0101.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0101.mp4; sourceTree = "<group>"; };
+		ED4DFA8B1D38DC3000D29596 /* IMG_0102.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_0102.mp4; sourceTree = "<group>"; };
+		ED4DFA8D1D38E4CC00D29596 /* PMLocationPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMLocationPickerController.h; sourceTree = "<group>"; };
+		ED4DFA8E1D38E4CC00D29596 /* PMLocationPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMLocationPickerController.m; sourceTree = "<group>"; };
+		ED4DFA941D3942C200D29596 /* NSDictionary+PMPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+PMPlace.h"; sourceTree = "<group>"; };
+		ED4DFA951D3942C200D29596 /* NSDictionary+PMPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+PMPlace.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +68,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D332D378B5391EBB57A868 /* libPods-ProjectMenu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EA2628CC624233ACE21A7D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F868EF9C56526AB5930CFA8 /* Pods-ProjectMenu.debug.xcconfig */,
+				8F818AA472E2B6EA57BBB5F0 /* Pods-ProjectMenu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CACF2E6843ED80B15BB42084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4F083810F521A2C5CB9ADFB /* libPods-ProjectMenu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1ADBC71D39638300317882 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ED1ADBDA1D39667C00317882 /* OpenSans-Bold.ttf */,
+				ED1ADBDB1D39667C00317882 /* OpenSans-ExtraBold.ttf */,
+				ED1ADBDC1D39667C00317882 /* OpenSans-Light.ttf */,
+				ED1ADBDD1D39667C00317882 /* OpenSans-Regular.ttf */,
+				ED1ADBDE1D39667C00317882 /* OpenSans-Semibold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		ED4DFA541D38CA0100D29596 = {
 			isa = PBXGroup;
 			children = (
 				ED4DFA5F1D38CA0100D29596 /* ProjectMenu */,
 				ED4DFA5E1D38CA0100D29596 /* Products */,
+				1EA2628CC624233ACE21A7D3 /* Pods */,
+				CACF2E6843ED80B15BB42084 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +125,28 @@
 		ED4DFA5F1D38CA0100D29596 /* ProjectMenu */ = {
 			isa = PBXGroup;
 			children = (
+				ED1ADBC71D39638300317882 /* Fonts */,
 				ED4DFA631D38CA0100D29596 /* AppDelegate.h */,
 				ED4DFA641D38CA0100D29596 /* AppDelegate.m */,
-				ED4DFA661D38CA0100D29596 /* ViewController.h */,
-				ED4DFA671D38CA0100D29596 /* ViewController.m */,
+				ED4DFA7C1D38CDDC00D29596 /* PMManager.h */,
+				ED4DFA7D1D38CDDC00D29596 /* PMManager.m */,
+				ED4DFA7F1D38CE2300D29596 /* PMConstants.h */,
+				ED4DFA801D38CE2300D29596 /* PMConstants.m */,
+				ED4DFA771D38CC6200D29596 /* PMSignInViewController.h */,
+				ED4DFA781D38CC6200D29596 /* PMSignInViewController.m */,
+				ED4DFA821D38D03600D29596 /* PMUserLocationViewController.h */,
+				ED4DFA831D38D03600D29596 /* PMUserLocationViewController.m */,
+				ED4DFA8D1D38E4CC00D29596 /* PMLocationPickerController.h */,
+				ED4DFA8E1D38E4CC00D29596 /* PMLocationPickerController.m */,
+				ED4DFA941D3942C200D29596 /* NSDictionary+PMPlace.h */,
+				ED4DFA951D3942C200D29596 /* NSDictionary+PMPlace.m */,
 				ED4DFA691D38CA0100D29596 /* Main.storyboard */,
 				ED4DFA6C1D38CA0100D29596 /* Assets.xcassets */,
 				ED4DFA6E1D38CA0100D29596 /* LaunchScreen.storyboard */,
 				ED4DFA711D38CA0100D29596 /* Info.plist */,
+				ED4DFA7A1D38CD6A00D29596 /* GoogleService-Info.plist */,
+				ED4DFA871D38D29100D29596 /* IMG_0101.mp4 */,
+				ED4DFA8B1D38DC3000D29596 /* IMG_0102.mp4 */,
 				ED4DFA601D38CA0100D29596 /* Supporting Files */,
 			);
 			path = ProjectMenu;
@@ -86,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED4DFA741D38CA0100D29596 /* Build configuration list for PBXNativeTarget "ProjectMenu" */;
 			buildPhases = (
+				64A079C0A175B4D23ECE76D2 /* [CP] Check Pods Manifest.lock */,
 				ED4DFA591D38CA0100D29596 /* Sources */,
 				ED4DFA5A1D38CA0100D29596 /* Frameworks */,
 				ED4DFA5B1D38CA0100D29596 /* Resources */,
+				14F54C3AE2B336185A781DF7 /* [CP] Embed Pods Frameworks */,
+				6B6FDA7281102449BA015337 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,21 +220,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1ADBE21D39667C00317882 /* OpenSans-Regular.ttf in Resources */,
+				ED1ADBE31D39667C00317882 /* OpenSans-Semibold.ttf in Resources */,
 				ED4DFA701D38CA0100D29596 /* LaunchScreen.storyboard in Resources */,
+				ED1ADBDF1D39667C00317882 /* OpenSans-Bold.ttf in Resources */,
+				ED4DFA7B1D38CD6A00D29596 /* GoogleService-Info.plist in Resources */,
+				ED1ADBE01D39667C00317882 /* OpenSans-ExtraBold.ttf in Resources */,
 				ED4DFA6D1D38CA0100D29596 /* Assets.xcassets in Resources */,
+				ED4DFA881D38D29100D29596 /* IMG_0101.mp4 in Resources */,
+				ED1ADBE11D39667C00317882 /* OpenSans-Light.ttf in Resources */,
+				ED4DFA8C1D38DC3000D29596 /* IMG_0102.mp4 in Resources */,
 				ED4DFA6B1D38CA0100D29596 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14F54C3AE2B336185A781DF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectMenu/Pods-ProjectMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64A079C0A175B4D23ECE76D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B6FDA7281102449BA015337 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProjectMenu/Pods-ProjectMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED4DFA591D38CA0100D29596 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED4DFA681D38CA0100D29596 /* ViewController.m in Sources */,
+				ED4DFA811D38CE2300D29596 /* PMConstants.m in Sources */,
+				ED4DFA791D38CC6200D29596 /* PMSignInViewController.m in Sources */,
 				ED4DFA651D38CA0100D29596 /* AppDelegate.m in Sources */,
+				ED4DFA841D38D03600D29596 /* PMUserLocationViewController.m in Sources */,
+				ED4DFA7E1D38CDDC00D29596 /* PMManager.m in Sources */,
+				ED4DFA961D3942C200D29596 /* NSDictionary+PMPlace.m in Sources */,
+				ED4DFA8F1D38E4CC00D29596 /* PMLocationPickerController.m in Sources */,
 				ED4DFA621D38CA0100D29596 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +406,11 @@
 		};
 		ED4DFA751D38CA0100D29596 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F868EF9C56526AB5930CFA8 /* Pods-ProjectMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProjectMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThePaadamCompany.ProjectMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +419,11 @@
 		};
 		ED4DFA761D38CA0100D29596 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F818AA472E2B6EA57BBB5F0 /* Pods-ProjectMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProjectMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThePaadamCompany.ProjectMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +449,7 @@
 				ED4DFA761D38CA0100D29596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

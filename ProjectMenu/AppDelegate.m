@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "PMManager.h"
+#import "PMSignInViewController.h"
+#import "PMUserLocationViewController.h"
+@import Firebase;
 
 @interface AppDelegate ()
 
@@ -16,7 +20,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [FIRApp configure];
+    
+    if ([PMManager isFirstLaunch]) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        PMSignInViewController *rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"PMSignInViewController"];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window.rootViewController = rootViewController;
+        [self.window makeKeyAndVisible];
+    }
+    else if (![PMManager isUserLocationSet]){
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        PMUserLocationViewController *rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"PMUserLocationViewController"];
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        self.window.rootViewController = rootViewController;
+        [self.window makeKeyAndVisible];
+    }
     return YES;
 }
 
